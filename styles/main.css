@@ -1,0 +1,24 @@
+footer {
+    height: 200px;
+    background-color: darkgoldenrod;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.hero img {
+z-index: -1;
+    height: 50vh;
+}
+
+nav {
+
+}
