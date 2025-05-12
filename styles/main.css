@@ -1,3 +1,12 @@
+/* Palette */
+#30 {
+
+}
+
+#10 {
+    background-color: #d0804d;
+}
+
 footer {
     height: 200px;
     background-color: darkgoldenrod;
@@ -53,6 +62,7 @@ nav.navbar-overlay {
     align-items: center;
     justify-content: center;
     position: relative;
+    gap: 10px;
     top: -40px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     width: fit-content;
