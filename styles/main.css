@@ -1,26 +1,51 @@
 /* Palette */
-#30 {
-
+.color-30 {
+    background-color: #d0804d;
+    color: #fff;
 }
 
-#10 {
+.color-10 {
     background-color: #d0804d;
+    color: #fff;
+}
+
+.btn-color-30 {
+    background-color: #d0804d;
+    color: #fff;
+}
+
+.btn-color-30:hover {
+    background-color: #825130;
+}
+
+.btn-color-10 {
+    background-color: #6E2535;
+    color: #fff;
+}
+
+.btn-color-10:hover {
+    background-color: #491923;
 }
 
 footer {
     height: 200px;
     background-color: darkgoldenrod;
 }
+
+
 /* Overlayed Navbar */
 nav.navbar-overlay {
     position: absolute;
     top: 0;
     width: 100%;
     z-index: 10;
-
 }
 
-
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+}
 
 .carousel-item {
     height: 80vh;
