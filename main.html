@@ -11,23 +11,58 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 
+
+    <style>
+
+    </style>
+
 </head>
 <body>
 
- <!-- NAVBAR -->
-<nav class="d-flex justify-content-between px-4 py-2">
-    <div><h1>TGTK</h1></div>
+<!-- Navbar -->
+<nav class="navbar-overlay d-flex justify-content-between text-white px-4 py-3">
+    <div><h1><strong>TGTK</strong></h1></div>
     <div>
-        <a href="#" class="me-3">ABOUT</a>
+        <a href="#" class="me-3 ">ABOUT</a>
         <a href="#">FAQ</a>
     </div>
 </nav>
 
+<!-- Carousel Hero -->
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/bg-image.png" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption text-white text-center">
+                <h1>Velkommen til<br><strong>KØGE</strong></h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/bg-image.png" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption text-white text-center">
+                <h1>Velkommen til<br><strong>KØGE</strong></h1>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/bg-image.png" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption text-white text-center">
+                <h1>Velkommen til<br><strong>KØGE</strong></h1>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+</div>
 
 
  <!-- FOOTER -->
 <footer></footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
