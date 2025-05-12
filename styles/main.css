@@ -11,6 +11,8 @@ nav.navbar-overlay {
 
 }
 
+
+
 .carousel-item {
     height: 80vh;
 }
@@ -40,4 +42,19 @@ nav.navbar-overlay {
     background-color: black;
     padding: 20px;
     border-radius: 50%;
+}
+
+
+
+.search-box {
+    background: white;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -40px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: fit-content;
+    margin: auto;
 }
