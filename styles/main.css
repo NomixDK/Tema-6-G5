@@ -20,13 +20,12 @@
 }
 
 .btn-color-10 {
-    background-color: #6E2535;
-    color: #fff;
+    background-color: #cfe2ff;
     transition: transform 0.3s ease, background-color 0.3s;
 }
 
 .btn-color-10:hover {
-    background-color: #491923;
+    background-color: #98a5ba;
 }
 
 footer {
