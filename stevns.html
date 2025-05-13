@@ -1,74 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-  <title>Bootstrap TGTK</title>
+    <title>TGTK Stevns Klint Experience</title>
 
-  <!-- BOOTSTRAP + CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles/main.css">
+    <!-- BOOTSTRAP + CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
 
-  <style>
-    /* Hero */
-    .hero-video-container {
-      height: 20vh;
-      overflow: hidden;
-    }
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <style>
+        /* Hero */
+        .hero-video-container {
+            height: 20vh;
+            overflow: hidden;
+        }
 
-  </style>
+    </style>
 </head>
 <body>
 
 <!-- Navbar -->
 <nav class="navbar-overlay d-flex justify-content-between text-white px-4 py-3">
-  <a href="main.html" title="Hjem"><h1><strong>TGTK</strong></h1></a>
-
+    <a href="main.html" title="Hjem"><h1><strong>TGTK</strong></h1></a>
 </nav>
+<!-- Orange Blob SVG -->
+<svg class="blob-top-left" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <path fill="#FFA500"
+          d="M42.3,-74.3C55.3,-66.8,66.4,-55.3,72.8,-41.7C79.2,-28.2,80.8,-12.6,79.1,2.4C77.3,17.3,72.1,31.6,64.4,44.7C56.6,57.8,46.2,69.8,33.4,75.6C20.7,81.5,5.3,81.3,-10.2,81.3C-25.6,81.2,-51.2,81.4,-66.1,70.6C-81,59.7,-85.2,37.8,-83.5,19.5C-81.7,1.2,-74,-13.6,-66.1,-26.2C-58.2,-38.8,-50.1,-49.2,-39.6,-58.4C-29.1,-67.6,-14.5,-75.6,0.9,-76.9C16.4,-78.1,32.8,-72,42.3,-74.3Z"
+          transform="translate(100 100)"/>
+</svg>
 
 
 
-<!-- Hero Section with Background Video -->
+<!-- Hero Section -->
 <section class="hero-video-container position-relative">
-  <img src="img/koge-hero.jpg" alt="DIN ALT TEKST" class="hero-image">
+    <img src="images/stevns-frontpic.webp" alt="Billede af Stevns Klint" class="hero-image">
 
-  <!-- Overlay for dimming -->
-  <div class="hero-overlay"></div>
+    <!-- Overlay for dimming -->
+    <div class="hero-overlay"></div>
 
-  <!-- Hero Text (centered) -->
-  <div class="hero-text text-white text-center position-absolute top-50 start-50 translate-middle">
-    <h1 class="display-4 fw-bold">TITLE</h1>
-    <p class="lead">XT</p>
-  </div>
-
+    <!-- Hero Text -->
+    <div class="hero-text text-white text-center position-absolute top-50 start-50 translate-middle">
+        <h1 class="display-4 fw-bold">Stevns Klint Experience</h1>
+    </div>
 </section>
 
+<!-- MAIN SECTION -->
+<main>
+    <!-- Info Section -->
+    <section class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                <img src="images/stevns2.webp" alt="Billede af Stevns Klint Udstilling"
+                     class="img-fluid shadow fade-img">
+            </div>
+            <div class="col-lg-6" data-aos="fade-left">
+                <h2 class="fw-bold">Rejs 66 millioner år tilbage i tiden på Stevns Klint</h2>
+                Oplev et UNESCO verdensarvsområde som du aldrig har set det før. På Stevns Klint Experience bliver natur
+                og
+                historie levende for både børn og voksne.
+                </p>
+                <p>
+                    Dyk ned i fortællingen om dinosaurernes udryddelse og se de verdensberømte lag med egne øjne.
+                    Interaktive udstillinger, film og aktiviteter engagerer hele familien – og gør læring til en leg.
+                </p>
+            </div>
+        </div>
+    </section>
 
 
+    <!-- Cafe -->
+    <section class=" mb-4 py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3">Nyd caféen</h2>
+            <p class="mb-4">
+                Efter oplevelserne kan I nyde en pause i caféen, gå en tur langs klinten eller lade børnene lege frit i
+                de
+                omkringliggende områder. Stevns Klint Experience er tilgængeligt for alle og tilbyder både café,
+                toiletter
+                og gratis parkering.
+            </p>
+            <img src="images/cafe.webp" alt="Cafe Billede" class="img-fluid rounded shadow-sm col-6 mb-4">
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="container">
+        <div class="row align-items-center" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="fw-bold text-center mb-4">Find vej</h3>
+            <!-- Map -->
+            <div class="col-md-6">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2242.377775013491!2d12.389135!3d55.276246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46525f98e6cb0bcf%3A0x36a2e04d3950c5b1!2sStevns%20Klint%20Experience!5e0!3m2!1sen!2sdk!4v1715622066749"
+                            width="600"
+                            height="450"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <!-- Stevns Klint Experience -->
+            <div class="col-md-6">
+                <h4 class="fw-bold">Stevns Klint Experience</h4>
+                <ul class="list-unstyled">
+                    <li><strong>Adresse:</strong> Boesdalsvej 14, 4660 Store Heddinge</li>
+                    <br>
+                    <li><strong>Åbningstider:</strong> Dagligt kl. 10:00 – 17:00 (sommermåneder)</li>
+                    <br>
+                    <li><strong>Pris:</strong> Voksne: 100 DKK, Børn: 50 DKK</li>
+                    <br>
+                    <li><strong>Faciliteter:</strong> Udstillinger, café, toiletter</li>
+                    <br>
+                    <li><strong>Parkering:</strong> Gratis parkering tilgængelig på stedet</li>
+                    <br>
+                    <li><strong>Tilgængelighed:</strong> Kørestolsvenlig adgang</li>
+                </ul>
+            </div>
 
 
+        </div>
+    </section>
+</main>
 
 <!-- Footer -->
 <footer class="color-30 text-center text-lg-start mt-5 border-top">
-  <div class="container p-4">
+    <div class="container p-4">
 
-    <div class="d-flex flex-row justify-content-between">
-      <!-- Copyright -->
-      <div class="text-center p-3 my-auto">
-        <h2>TGTK</h2>
-      </div>
+        <div class="d-flex flex-row justify-content-between">
+            <!-- Copyright -->
+            <div class="text-center p-3 my-auto">
+                <h2>TGTK</h2>
+            </div>
 
-      <ul class="list-inline my-auto">
-        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">General Conditions</a></li>
-        <li class="list-inline-item me-3">•</li>
-        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">Privacy Policy</a></li>
-        <li class="list-inline-item me-3">•</li>
-        <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">Cookies</a></li>
-      </ul>
-    </div>
+            <ul class="list-inline my-auto">
+                <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">General Conditions</a>
+                </li>
+                <li class="list-inline-item me-3">•</li>
+                <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">Privacy Policy</a></li>
+                <li class="list-inline-item me-3">•</li>
+                <li class="list-inline-item"><a href="#" class="text-decoration-none text-white">Cookies</a></li>
+            </ul>
+        </div>
 </footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
