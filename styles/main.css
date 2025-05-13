@@ -30,10 +30,26 @@
 }
 
 footer {
-    height: 200px;
+    height: auto;
     background-color: darkgoldenrod;
 }
 
+
+
+/* Effects */
+.zoom-contained {
+    transition: transform 0.3s ease;
+    display: block;
+    width: 100%;
+}
+
+.overflow-hidden:hover .zoom-contained {
+    transform: scale(1.05);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
 
 /* Overlayed Navbar */
 nav.navbar-overlay {
@@ -79,8 +95,8 @@ nav a {
 
 .map-btn {
     position: absolute;
-    bottom: 30px;
-    right: 30px;
+    bottom: 50px;
+    right: 50px;
     z-index: 3;
     background-color: #d0804d;
     color: white;
